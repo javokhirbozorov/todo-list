@@ -1,0 +1,20 @@
+.task{
+    display:flex;
+    justify-content:space-between;
+    button{
+        margin-left: 10px;
+        max-height: 22px;
+        width: 22px;
+        padding: 0;
+     
+    }
+}
+.editMode{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.ticked{
+    text-decoration: line-through;
+}
