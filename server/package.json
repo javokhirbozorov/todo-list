@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js --ext js,jsx",
-    "start": "node app.js"
+    "build": "cd client && npm install && npm run build",
+    "start": "nodemon --watch server --exec node --experimental-modules app.js"
   },
   "keywords": [],
   "author": "",
@@ -27,4 +26,8 @@
     "sequelize": "^6.23.2",
     "sequelize-cli": "^6.5.1"
   },
+   "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  }
 }
