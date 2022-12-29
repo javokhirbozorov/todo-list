@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cd client && npm install && npm run build",
-    "start": "nodemon --watch server --exec node --experimental-modules app.js"
+    "start": "nodemon --watch app.js --exec node --experimental-modules app.js"
   },
   "keywords": [],
   "author": "",
